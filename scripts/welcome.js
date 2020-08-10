@@ -11,7 +11,7 @@ function searchUser() {
         axios.get('https://api.github.com/users/' + githubUserID)
             .then(() => {
                 localStorage.setItem('githubUserID', githubUserID)
-                window.location.href = '/index.html'
+                window.location.href = './index.html'
             })
             .catch(() => alert('Usuario não encontrado D:'))
     } else {

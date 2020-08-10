@@ -32,7 +32,7 @@ function capitalize(str) {
 
 function changeUser() {
     localStorage.removeItem('githubUserID')
-    window.location.href = '/welcome.html'
+    window.location.href = './welcome.html'
 }
 
 if (uid) {
@@ -72,4 +72,4 @@ if (uid) {
         })
     })
 } else
-    window.location.href = '/welcome.html'
+    window.location.href = './welcome.html'
