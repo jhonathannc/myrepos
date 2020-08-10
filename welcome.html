@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo | MyRepo</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/welcome.css">
+</head>
+
+<body>
+    <div class="container">
+        <p>Bem-vindo!</p>
+        <img src="/fakes/25231.svg" alt="Github Logo">
+        <p>Aqui voce consegue visualizar todos os seus repositorios do github.</p>
+        <p>Vamos comecar inserindo abaixo o seu id do github.</p>
+        <div class="select-name">
+            <input id="repo" type="text" placeholder="Exemplo: jhonathannc">
+            <br>
+            <button onclick="searchUser()">Ver meu Repositorio!</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/scripts/welcome.js"></script>
+</body>
+
+</html>

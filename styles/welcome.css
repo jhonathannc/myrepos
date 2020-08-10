@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    /* height = altura */
+    background: var(--color-primary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    color: var(--color-text-dark);
+}
+
+.container * {
+    padding: 1rem;
+}
+
+.container img {
+    height: 12rem;
+    width: 12rem;
+}
+
+.container .select-name {
+    padding: .4rem;
+    margin: 0;
+}
+
+.container .select-name * {
+    margin: .5rem;
+    font-size: 90%;
+    padding: .3rem;
+}
