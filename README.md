@@ -11,9 +11,16 @@
 ## 📋 Índice
 
 - [Sobre](#-Sobre)
+- [Preview](#-Preview)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
 - [Como executar o projeto](#-Como-executar-o-projeto)
-- [Preview](#-Preview)
+
+---
+
+## 📖 Sobre 
+
+A proposta deste projeto é ter uma visualizacão fácil e rapida de todos os repositorios de um determinado usuario, bastante apenas indicar qual seu `id` no github e a aplicacao faz um busca utilizando a API publica da github.
+Futuramente haverá mais features. Fique por dentro! 
 
 ---
 
@@ -33,13 +40,6 @@
 
 ---
 
-## 📖 Sobre 
-
-A proposta deste projeto é ter uma visualizacão fácil e rapida de todos os repositorios de um determinado usuario, bastante apenas indicar qual seu `id` no github e a aplicacao faz um busca utilizando a API publica da github.
-Futuramente haverá mais features. Fique por dentro!
-
---- 
-
 ## 🚀 Tecnologias utilizadas
 
 O projeto está desenvolvido utilizando as seguintes tecnologias:
@@ -57,7 +57,6 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ##Basta apenas entrar no link abaixo com o github Pages.
 http://jhonathannc.github.io/myrepos
 ```
-
 
 ---
 
